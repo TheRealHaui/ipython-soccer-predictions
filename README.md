@@ -33,7 +33,7 @@ Start your instance:
 ```
 gcloud compute instances create ipy-predict \
   --image https://www.googleapis.com/compute/v1/projects/google-containers/global/images/container-vm-v20140522 \
-  --zone=us-central1-a --machine-type n1-standard-1 
+  --zone=us-central1-a --machine-type n1-standard-1 --scopes storage-ro,bigquery
 ```
 
 Ssh to your new machine:
