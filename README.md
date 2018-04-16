@@ -41,9 +41,11 @@ Ssh to your new machine:
 `gcloud compute ssh ipy-predict --zone=us-central1-a -- -L 8888:127.0.0.1:8888`
 
 
+
 Only first time: Download Google's provided Docker image locally.
 
   `sudo docker pull fhoffa/ipython-predictions:v1`
+
 
 
 After start:
@@ -60,9 +62,6 @@ Current image Docker version 0.11.
 
 
 
-Download and run the docker image we prepared:
-
-`sudo docker run -p 8888:8888 fhoffa/ipython-predictions:v1`
 
 Wait until Docker downloads and runs the container, then navigate to the notebook:
 
