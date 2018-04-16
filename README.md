@@ -38,14 +38,14 @@ gcloud compute instances create ipy-predict \
 
 Ssh to your new machine:
 
-` gcloud compute ssh ipy-predict --zone=us-central1-a -- -L 8888:127.0.0.1:8888`
+`gcloud compute ssh ipy-predict --zone=us-central1-a -- -L 8888:127.0.0.1:8888`
 
 
 Only first time:
 
-    Download Google's provided Docker image locally.
+  Download Google's provided Docker image locally.
 
-    `sudo docker pull fhoffa/ipython-predictions:v1`
+  `sudo docker pull fhoffa/ipython-predictions:v1`
 
 
 After start:
