@@ -43,9 +43,9 @@ Ssh to your new machine:
 
 Only first time:
 
-  Download Google's provided Docker image locally.
+    Download Google's provided Docker image locally.
 
-  `sudo docker pull fhoffa/ipython-predictions:v1`
+    `sudo docker pull fhoffa/ipython-predictions:v1`
 
 
 After start:
